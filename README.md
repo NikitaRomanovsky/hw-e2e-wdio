@@ -22,4 +22,4 @@ To run all test cases, use the following command:
 - yarn wdio  
   
 It is expected that all tests are passed (green).  
-NB: The email in registration steps file should be changed to not used one. You can adjust the number in the email by adding +1 to it, so the email is uniqe each time.  
+NB: The email in registration steps file should be changed to not used one. You can adjust the number in the email by adding +1 to it, so the email is unique each time.  
