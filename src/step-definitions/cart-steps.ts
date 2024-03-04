@@ -1,9 +1,9 @@
-const { Given, When, Then } = require('@wdio/cucumber-framework');
-const { expect, $ } = require('@wdio/globals');
+import { Given, When, Then } from '@wdio/cucumber-framework';
+import { expect, $ } from '@wdio/globals'
 
-let firstItemPrice;
-let secondItemPrice;
-let productNameText;
+let firstItemPrice: number;
+let secondItemPrice: number;
+let productNameText: string;
 
 When("I click on What's New button", async () => {
   const whatNewButton = await $('//*[@id="ui-id-3"]');

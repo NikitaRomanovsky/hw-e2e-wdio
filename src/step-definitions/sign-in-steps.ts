@@ -1,5 +1,5 @@
-const { Given, When, Then } = require('@wdio/cucumber-framework');
-const { expect, $ } = require('@wdio/globals')
+import { Given, When, Then } from '@wdio/cucumber-framework';
+import { expect, $ } from '@wdio/globals'
 
 When('I click on Sign In button to navigate to sign in page', async () => {
     const signInButton = await $('/html/body/div[2]/header/div[1]/div/ul/li[2]/a')

@@ -1,5 +1,5 @@
-const { Given, When, Then } = require('@wdio/cucumber-framework');
-const { expect, $ } = require('@wdio/globals')
+import { Given, When, Then } from '@wdio/cucumber-framework';
+import { expect, $ } from '@wdio/globals'
 
 
 When('I click on Create an Account button to navigate to registration page', async () => {
@@ -19,7 +19,7 @@ When('I type in valid data to registrate', async () => {
     
     const emailField = await $('//*[@id="email_address"]')
     emailField.waitForDisplayed()
-    emailField.setValue('nikita/test40@test.com')
+    emailField.setValue('nikita/test41@test.com')
     
     const passwordField = await $('//*[@id="password"]')
     passwordField.waitForDisplayed()

@@ -1,6 +1,6 @@
-const { Given, When, Then } = require('@wdio/cucumber-framework');
-const { expect, $ } = require('@wdio/globals')
-const { Before, After } = require('@wdio/cucumber-framework');
+import { Given, When, Then } from '@wdio/cucumber-framework';
+import { expect, $ } from '@wdio/globals'
+import { Before, After } from '@wdio/cucumber-framework';
 
 
 /* 
